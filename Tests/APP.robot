@@ -3,6 +3,7 @@ Library   SeleniumLibrary
 Library   Resources/Resource.py
 
 *** Test Cases ***
+
 Start Test
     Start Test
 User can input First and Last name
