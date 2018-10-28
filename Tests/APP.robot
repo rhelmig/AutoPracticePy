@@ -1,6 +1,7 @@
 *** Settings ***
 Library   SeleniumLibrary
 Library   Resources/Resource.py
+# RF Test
 
 *** Test Cases ***
 Start Test
