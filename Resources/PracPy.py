@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 import time
 
-# test setup
+# setup
 driver = webdriver.Chrome()
 driver.get("http://www.teachmeselenium.com/automation-practice/")
 driver.implicitly_wait(5)
