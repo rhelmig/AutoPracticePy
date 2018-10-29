@@ -1,6 +1,6 @@
 *** Settings ***
 Library   SeleniumLibrary
-Library   Resources/Resource.py
+Library   Resources/APP_Resource.py
 
 *** Test Cases ***
 
