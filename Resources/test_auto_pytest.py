@@ -53,7 +53,7 @@ def test_get_alert(driver):
     alert.accept()
 
 
-# Switch to the window 2 and confirm
+# Switch to window 2 and confirm
 def test_switch_window2(driver):
     driver.find_element_by_link_text("Click Me to open New Window").click()
     window_after = driver.window_handles[1]
@@ -67,7 +67,7 @@ def test_select_list_2(driver):
     Select(driver.find_element_by_id("list-second-window")).select_by_visible_text('Second Window')
 
 
-# Switch to the window 3 and Confirm
+# Switch to window 3 and Confirm
 def test_switch_window3(driver):
     driver.find_element_by_link_text("Click Me To Open Third Window").click()
     window_final = driver.window_handles[2]
