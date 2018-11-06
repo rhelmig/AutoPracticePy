@@ -1,5 +1,6 @@
 from selenium.webdriver.support.select import Select
 from pytest import mark
+# pytest -v --html=report.html
 
 
 # enter user name
