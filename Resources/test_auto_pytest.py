@@ -1,6 +1,12 @@
 from selenium.webdriver.support.select import Select
 from pytest import mark
 
+# pytest -v -s --html=report.html --tb=short
+
+'''
+Pytest variation on the AUT.  
+'''
+
 
 # enter user name
 @mark.smoke

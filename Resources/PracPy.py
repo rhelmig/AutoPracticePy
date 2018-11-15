@@ -1,13 +1,16 @@
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
-import time
+
+'''
+Strictly Python run through of AUT.
+'''
 
 # setup
 driver = webdriver.Chrome()
 driver.get("http://www.teachmeselenium.com/automation-practice/")
 driver.implicitly_wait(5)
 driver.maximize_window()
-time.sleep(2)
+
 
 # enter user name
 first_textfield = driver.find_element_by_id('firstname')

@@ -2,6 +2,8 @@
 Library   SeleniumLibrary
 Library   Resources/APP_Resource.py
 
+Documentation  Hybrid approach for the AUT. Robot Framework is the top layer calling python functions.
+
 *** Test Cases ***
 Start Test
     Start Test
